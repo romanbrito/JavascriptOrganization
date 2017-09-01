@@ -15,6 +15,8 @@ var Details = (function () {
 
     var $content;
 
+    EVT.on("init", init);
+
     return {
         init: init,
         loadPerson: loadPerson

@@ -50,6 +50,8 @@ var Carousel = (function () {
         $items.on("click", "[rel*='js-item-']", clickPerson);
     }
 
+    EVT.on("init", init);
+
     var $content, $left, $right, $items, contentWidth, itemsWidth, position, maxPosition;
 
     return {

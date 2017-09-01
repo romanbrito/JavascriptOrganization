@@ -7,6 +7,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OrgCodeExses/jsorg/js/app.js" afterPath="$PROJECT_DIR$/OrgCodeExses/jsorg/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OrgCodeExses/jsorg/js/carousel.js" afterPath="$PROJECT_DIR$/OrgCodeExses/jsorg/js/carousel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OrgCodeExses/jsorg/js/details.js" afterPath="$PROJECT_DIR$/OrgCodeExses/jsorg/js/details.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OrgCodeExses/jsorg/js/header.js" afterPath="$PROJECT_DIR$/OrgCodeExses/jsorg/js/header.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +27,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="301">
-                  <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+                <state relative-caret-position="284">
+                  <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -46,8 +47,8 @@
           <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/js/header.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="193">
-                  <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+                <state relative-caret-position="380">
+                  <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -56,8 +57,8 @@
           <file leaf-file-name="details.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/js/details.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                <state relative-caret-position="289">
+                  <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -66,8 +67,18 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="75" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="2.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/details/2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -80,8 +91,8 @@
           <file leaf-file-name="carousel.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/js/carousel.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+                <state relative-caret-position="346">
+                  <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -118,10 +129,10 @@
         <option value="$USER_HOME$/AppData/Local/Temp/header.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/index.html" />
         <option value="$PROJECT_DIR$/OrgCodeExses/jsorg/js/header.js" />
-        <option value="$PROJECT_DIR$/OrgCodeExses/jsorg/index.html" />
-        <option value="$PROJECT_DIR$/OrgCodeExses/jsorg/js/app.js" />
         <option value="$PROJECT_DIR$/OrgCodeExses/jsorg/js/carousel.js" />
         <option value="$PROJECT_DIR$/OrgCodeExses/jsorg/js/details.js" />
+        <option value="$PROJECT_DIR$/OrgCodeExses/jsorg/index.html" />
+        <option value="$PROJECT_DIR$/OrgCodeExses/jsorg/js/app.js" />
       </list>
     </option>
   </component>
@@ -246,7 +257,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21694000" />
+    <option name="totallyTimeSpent" value="22682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -500,22 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/js/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/js/eventemitter2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -526,26 +521,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/js/carousel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="346">
+          <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/js/details.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/details/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OrgCodeExses/jsorg/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="75" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

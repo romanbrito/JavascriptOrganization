@@ -25,6 +25,8 @@ var Header = (function () { // iife pattern immediately invoked function express
         $("[rel='js-controls']").on("click", "[rel*='js-']", headerLinkClicks);
     }
 
+    EVT.on("init", init);
+
     var $modal;
 
     return {
