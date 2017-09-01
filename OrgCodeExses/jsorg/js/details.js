@@ -19,6 +19,3 @@ var Details = (function () {
     };
 
 })();
-
-
-$(document).ready(Details.init);

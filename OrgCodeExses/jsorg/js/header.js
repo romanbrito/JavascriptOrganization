@@ -32,5 +32,3 @@ var Header = (function () { // iife pattern immediately invoked function express
     };
 
 })();
-
-$(document).ready(Header.init);
