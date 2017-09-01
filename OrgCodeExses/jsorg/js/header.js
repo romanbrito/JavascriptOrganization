@@ -28,7 +28,7 @@ var Header = (function () { // iife pattern immediately invoked function express
     var $modal;
 
     return {
-      init: init
+        init: init
     };
 
 })();
