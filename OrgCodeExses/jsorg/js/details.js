@@ -11,7 +11,8 @@ var Details = (function () {
         evt.preventDefault();
         var ID = $(evt.target).attr("data-person");
 
-        loadPerson(ID);
+        //loadPerson(ID);
+        EVT.emit("person-selected", ID);
 
     }
 
