@@ -27,7 +27,8 @@ var Carousel = (function () {
     function clickPerson(evt) {
         var ID = $(evt.target).attr("rel").replace(/^.*(\d+)$/, "$1"); //regular expression
 
-        Details.loadPerson(ID);
+        EVT.emit("person-selected", ID); // emitting event don't care who gets it
+
     }
 
     function init() {

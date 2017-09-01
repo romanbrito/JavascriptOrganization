@@ -9,6 +9,8 @@ var Details = (function () {
 
     function init() {
         $content = $("[rel=js-details]");
+
+        EVT.on("person-selected", loadPerson); // subscribing to the event
     }
 
     var $content;
