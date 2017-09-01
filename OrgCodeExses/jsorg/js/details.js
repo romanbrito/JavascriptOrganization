@@ -7,8 +7,18 @@ var Details = (function () {
         });
     }
 
+    function selectPerson(evt) {
+        evt.preventDefault();
+        var ID = $(evt.target).attr("data-person");
+
+        loadPerson(ID);
+
+    }
+
     function init() {
         $content = $("[rel=js-details]");
+
+        $content.on("click","[rel=js-select-person]", selectPerson);
 
         EVT.on("person-selected", loadPerson); // subscribing to the event
     }
