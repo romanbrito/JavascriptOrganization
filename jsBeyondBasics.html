@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Functionality</title>
+</head>
+<body>
+
+
+<script>
+    // nested scopes
+    function foo() {
+        var a = 1;
+
+        function bar() {
+            var b = 2;
+
+            function baz() {
+                var c = 3;
+
+                console.log(a, b, c);	// 1 2 3
+            }
+
+            baz();
+            console.log(a, b);		// 1 2
+        }
+
+        bar();
+        console.log(a);				// 1
+    }
+
+    foo();
+    // end nested scope
+
+    // closure
+    function makeAdder(x) {
+        // parameter `x` is an inner variable
+
+        // inner function `add()` uses `x`, so
+        // it has a "closure" over it
+        function add(y) {
+            return y + x;
+        };
+
+        return add;
+    }
+
+    var fnScope = makeAdder(5);
+
+    fnScope(10); // 15
+    fnScope(20); // 25
+
+    var fnScope2 = makeAdder(10);
+    fnScope2(20); // 30
+
+    // end closure
+
+    // Modules
+    function Hello (name) {
+
+        function speak () {
+            console.log( name );
+        }
+
+        return speak;
+    }
+
+    var fnModule = Hello("roman");
+
+    fnModule(); // roman
+
+    //
+
+    function Hello2 (name) {
+
+        function talk () {
+            console.log( name );
+        }
+
+        return { // object
+            talk: talk // it is returning function talk as an object property talk: can be different
+        };
+    }
+
+    var oModules = Hello2("roman 2");
+
+    oModules.talk(); // roman 2
+
+    //
+
+    function Hello3 (name) {
+        function speak (lastName) {
+            console.log(name, lastName);
+        }
+
+        return {
+            say: speak
+        };
+    }
+
+    var oModules2 = Hello3("roman");
+
+    oModules2.say("brito"); // roman brito
+
+    //
+
+    function Hello3 (name) {
+        function speak(lastName) {
+            console.log( name, lastName);
+        }
+
+        function firstName() {
+            return name;
+        }
+
+        var public_api = {
+            say: speak,
+            firstName: firstName
+        };
+
+        return public_api;
+    }
+
+    var o = Hello3("roman");
+
+    o.say("brito"); // roman brito
+    o.firstName(); // roman
+
+
+    //end Modules
+
+    // callbacks
+    // passing the function as a value
+
+    function bar() {
+        console.log("hello world");
+    }
+
+    setTimeout(bar , 1000);
+
+    //
+    function resp ( content) {
+        console.log( content);
+    }
+
+    ajax("http://some.url", resp );
+
+
+
+</script>
+</body>
+</html>
