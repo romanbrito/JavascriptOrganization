@@ -1,23 +1,36 @@
-// put event handlers for header links here
-$(document).ready(function () {  // dom is parsed and ready
+// refactor to module pattern
 
-    var $modal = $("[rel='js-modal']"); // prefixed to make clear is dealing jquery
+var Header = (function () { // iife pattern immediately invoked function expression,
+// it declares and calls it at the same time instead of declare and then assign
 
- $("[rel='js-controls']").on("click", "[rel*='js-']", function (evt) {
-     // managing this event so that we handle it and it doesn't bubble anywhere
-    evt.preventDefault();
-    evt.stopPropagation();
-    evt.stopImmediatePropagation();
+    function headerLinkClicks(evt) {
+        // managing this event so that we handle it and it doesn't bubble anywhere
+        evt.preventDefault();
+        evt.stopPropagation();
+        evt.stopImmediatePropagation();
 
-    var url = $(evt.target).attr("href");
+        var url = $(evt.target).attr("href");
 
-    // ajax call
-     $.ajax(url, { dataType: "text"})
-         .then(function (contents) {
-             $modal.html(contents).show();
-         });
+        // ajax call
+        $.ajax(url, {dataType: "text"})
+            .then(function (contents) {
+                $modal.html(contents).show();
+            });
 
- });
+    }
 
+    function init() {
+        $modal = $("[rel='js-modal']"); // $ prefixed to make clear is dealing jquery
 
-});
+        $("[rel='js-controls']").on("click", "[rel*='js-']", headerLinkClicks);
+    }
+
+    var $modal;
+
+    return {
+      init: init
+    };
+
+})();
+
+$(document).ready(Header.init);
